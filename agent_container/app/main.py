@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from typing import List
 
 
-app = FastAPI(title="Hitakshi- Riverty Agent Runtime", version="1.0.0")
+app = FastAPI(title="Enterprise Agentic Runtime", version="1.0.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"], # In production, replace with your specific URL
